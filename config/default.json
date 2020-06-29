@@ -1,0 +1,5 @@
+{
+  "mongoURI": "mongodb+srv://redmed86:vNAWerj7DyKNwGk4@dev-browserstack-developer-site-uccuc.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret",
+  "githubToken": "53630d3ba97c09aa9fad10e69278b4ed886711d9"
+}
