@@ -1,0 +1,24 @@
+{
+  "auth": {
+    "username": "derekross2",
+    "access_key": "YCgszhMDbVkWuJ4D6KU3"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["78", "77"]
+    }
+  ],
+  "run_settings": {
+    "cypress_proj_dir": "./",
+    "project_name": "Derek Browserstack-Developer-Network Cypress",
+    "build_name": "Cypress Build - BS Dev Network",
+    "npm_dependencies": {}
+  },
+  "connection_settings": {
+    "local": true,
+    "local_identifier": null
+  },
+  "disable_usage_reporting": false
+}
