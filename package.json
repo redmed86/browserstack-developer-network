@@ -9,7 +9,8 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "cypress:open": "cypress open",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "wdio-local": "./node_modules/.bin/wdio wdio.conf.js"
   },
   "author": "Derek Ross",
   "license": "MIT",
@@ -26,8 +27,16 @@
     "normalize-url": "^5.0.0"
   },
   "devDependencies": {
+    "@wdio/cli": "^6.1.22",
+    "@wdio/local-runner": "^6.1.22",
+    "@wdio/mocha-framework": "^6.1.19",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "chromedriver": "^83.0.0",
     "concurrently": "^5.1.0",
     "cypress": "^4.9.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "wdio-chromedriver-service": "^6.0.3",
+    "webdriverio": "^6.1.22"
   }
 }
