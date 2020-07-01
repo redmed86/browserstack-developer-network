@@ -1,6 +1,6 @@
-# DevConnector 2.0_Browserstack
+# Browserstack-Developer-Network (Example React Project)
 
-> Social network for developers
+> Social network for Browserstack developers
 
 This is a MERN stack application from the "MERN Stack Front To Back" course on [Udemy](https://www.udemy.com/mern-stack-front-to-back/?couponCode=TRAVERSYMEDIA). It is a small social network app that includes authentication, profiles and forum posts. It was created by Brad Traversy and his course is an excellent way to develop your fundamental skills needed to build MERN based applications.
 
