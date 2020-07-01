@@ -8,6 +8,16 @@
       "browser": "chrome",
       "os": "Windows 10",
       "versions": ["78", "77"]
+    },
+    {
+      "browser": "firefox",
+      "os": "Windows 10",
+      "versions": ["75"]
+    },
+    {
+      "browser": "edge",
+      "os": "Windows 10",
+      "versions": ["80", "81"]
     }
   ],
   "run_settings": {
